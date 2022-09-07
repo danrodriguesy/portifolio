@@ -1,15 +1,16 @@
 import React from 'react';
-import { HeaderDiv } from './Styles';
-import { Link } from 'react-router-dom';
+import { HeaderDiv } from '../styles/Header';
+import Menu from '../components/Menu';
 
 const Header = () => {
     return (
         <HeaderDiv>
-            <span>DANRLEY RODRIGUES</span>
-            <Link to="/"> Home </Link>
-            <Link to="/SobreMim"> SobreMim </Link>
-            <Link to="/Projetos"> Projetos </Link>
-            <Link to="/Contato"> Contato </Link>
+            <div>
+                <span>DANRLEY RODRIGUES</span>
+            </div>
+            <div>
+                <Menu />
+            </div>
         </HeaderDiv>
     )
 }
