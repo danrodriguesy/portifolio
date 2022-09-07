@@ -6,6 +6,7 @@ import { createGlobalStyle } from 'styled-components';
 import Home from './pages/Home';
 import SobreMim from './pages/SobreMim';
 import Projetos from './pages/Projetos';
+import Contato from './pages/Contato';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -24,6 +25,7 @@ root.render(
         <Route path="/" element={<Home />} exact />
         <Route path="/SobreMim" element={<SobreMim />} />
         <Route path="/Projetos" element={<Projetos />} />
+        <Route path="/Contato" element={<Contato />} />
         <Route element={() => <div>ERRO 404! </div>} />
       </Routes>
     </BrowserRouter>
