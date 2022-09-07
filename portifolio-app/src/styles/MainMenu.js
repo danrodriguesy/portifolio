@@ -25,8 +25,4 @@ export const MainMenu = styled.div`
             background: none;
         }
     }
-       
-    
-    
-
 `;

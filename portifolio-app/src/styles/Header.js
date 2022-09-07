@@ -16,8 +16,13 @@ export const HeaderDiv = styled.div`
     span {
         color: #00A199;
         font-weight: bold;
+        justify-items: center;
+        display: flex;
         @media (max-width: 600px) {
             font-size: 15px;
+        }
+        p {
+            margin-right: 10px;
         }
     }
 `;
