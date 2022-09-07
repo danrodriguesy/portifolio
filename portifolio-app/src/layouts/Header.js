@@ -1,9 +1,15 @@
 import React from 'react';
-import {Styles} from './Styles';
+import { HeaderDiv } from './Styles';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <Styles>teste</Styles>
+        <HeaderDiv>
+            <span>DANRLEY RODRIGUES</span>
+            <Link to="/"> Home </Link>
+            <Link to="/SobreMim"> SobreMim </Link>
+            <Link to="/Projetos"> Projetos </Link>
+        </HeaderDiv>
     )
 }
 export default Header;
