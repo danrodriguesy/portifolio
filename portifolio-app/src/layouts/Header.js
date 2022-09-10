@@ -1,17 +1,38 @@
-import React from 'react';
 import { HeaderDiv } from '../styles/Header';
 import Menu from '../components/Menu';
-import { Code } from "phosphor-react";
+import MenuMobile from '../components/MenuMobile';
+import { List } from 'phosphor-react';
+import { useState } from 'react';
+import { MobileView, isMobile } from 'react-device-detect';
+
 
 const Header = () => {
+    const [showMenuMobile, SetshowMenumobile] = useState(false);
+
+    let menu;
+    if(showMenuMobile && isMobile){
+        menu = true;
+    }
+    
     return (
-        <HeaderDiv>
-            <span>
-                DANRLEY RODRIGUES
-                <Code size={18} color="#00A199" weight="bold" />
-            </span>
-            <Menu />
-        </HeaderDiv>
+        <>
+            <HeaderDiv>
+                <div>
+                    <span>
+                        DANRLEY RODRIGUES
+                    </span>
+                </div>
+                <div>
+                    <List size={36} color="#FFF" weight="bold" onClick={() => SetshowMenumobile(!showMenuMobile)} />
+                </div>
+                <Menu />
+            </HeaderDiv>
+            <MobileView>
+                { menu ? (
+                    <MenuMobile />
+                ) : ('')}
+            </MobileView>
+        </>
     )
 }
 export default Header;

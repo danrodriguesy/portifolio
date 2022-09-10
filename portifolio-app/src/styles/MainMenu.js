@@ -5,8 +5,8 @@ export const MainMenu = styled.div`
     @media (max-width: 600px) {
         font-size: 12px;
         margin: 1rem auto;
+        display: none;
     }
-
     a {
         text-decoration: none;
         margin: 0 1rem;

@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom';
-import { MainMenu } from '../styles/MainMenu';
+import { MainMenuMobile } from '../styles/MainMenuMobile';
 
-const Menu = () => {
+const MenuMobile = () => {
     return (
         <>
-            <MainMenu>
+            <MainMenuMobile>
                 <Link to="/"> Home </Link>
                 <Link to="/SobreMim"> Sobre mim </Link>
                 <Link to="/Projetos"> Projetos </Link>
                 <Link to="/Contato"> Contato </Link>
-            </MainMenu>
+            </MainMenuMobile>
         </>
     )
 };
 
-export default Menu;
+export default MenuMobile;
