@@ -7,7 +7,7 @@ export const HeaderDiv = styled.div`
             display: block;
         }
     }
-    background: #00213F;
+    background: #000;
     margin: 0;
     padding: 0;
     height: auto;
