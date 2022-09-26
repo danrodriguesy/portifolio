@@ -4,6 +4,7 @@ import MenuMobile from '../components/MenuMobile';
 import { List } from 'phosphor-react';
 import { useState } from 'react';
 import { MobileView, isMobile } from 'react-device-detect';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -18,9 +19,11 @@ const Header = () => {
         <>
             <HeaderDiv>
                 <div>
-                    <span>
-                        DANRLEY RODRIGUES
-                    </span>
+                    <Link to="/Projetos"> 
+                        <span>
+                            DANRLEY RODRIGUES
+                        </span>
+                    </Link>
                 </div>
                 <div>
                     <List size={36} color="#FFF" weight="bold" onClick={() => SetshowMenumobile(!showMenuMobile)} />
