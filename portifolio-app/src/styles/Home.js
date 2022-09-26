@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const HomeStyle = styled.div`
     #main {
         display: flex;
+        
+        @media (max-width: 600px){
+            width: 100%;
+            display: block;   
+        }
     }
     #home-left {
         min-height: 600px;
@@ -13,6 +18,13 @@ export const HomeStyle = styled.div`
         align-items: center;
         flex-direction: column;
         color: #00A199;
+
+        @media (max-width: 600px){
+            width: 100%;
+            font-size: 12px;
+            text-align: center;
+            min-height: 400px;
+        }
 
         img {
             width: 120px;
@@ -44,6 +56,11 @@ export const HomeStyle = styled.div`
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
+        @media (max-width: 600px){
+            width: 100%;
+            min-height: 300px;
+        }
     
         button {
             background: none;
