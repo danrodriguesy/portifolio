@@ -11,6 +11,10 @@ export const ProjectsStyle = styled.div`
         align-items: center;
         padding: 30px 0;
 
+        @media (max-width: 600px){
+            font-size: 25px;
+        }
+
         #title {
             margin: 0px 0px;
         }
