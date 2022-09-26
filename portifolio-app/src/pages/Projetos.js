@@ -24,7 +24,7 @@ const Projetos = () => {
                     <img src={require('../image/projeto-2.png')} alt="projeto2" />
                     <footer>
                         <span>Projetos antigos (3 em 1)</span>
-                        <a href="https://oldprojetcs.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://projetosantigos.vercel.app" target="_blank" rel="noopener noreferrer">
                             <button> <span>visitar</span>  <Eye size={15} color="#FFF" weight="bold" /></button>
                         </a>
                     </footer>
