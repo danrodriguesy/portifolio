@@ -22,7 +22,7 @@ function Home() {
           </div>
           <div id="home-right">
             <Link to="/Projetos"> 
-              <button>Projetos</button> 
+              <button>Projetos</button>
             </Link>
             <div id="icones">
               <i className="devicon-react-original-wordmark colored"></i> 
