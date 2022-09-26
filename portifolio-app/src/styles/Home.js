@@ -27,8 +27,8 @@ export const HomeStyle = styled.div`
         }
 
         img {
-            width: 120px;
-            height: 140px;
+            width: 140px;
+            height: 160px;
             border-radius: 50%;
             overflow: hidden;
             border: 2px solid #00A199;
@@ -46,6 +46,10 @@ export const HomeStyle = styled.div`
             border: 1px solid #00A199;
             padding: 20px;
             border-radius: 20px;
+
+            @media (max-width: 600px){
+                font-size: 20px;
+            }
         }
     }
     #home-right {
@@ -74,9 +78,15 @@ export const HomeStyle = styled.div`
         button:hover {
             background: #00A199;
         }
+
         i {
             font-size: 40px;
             margin: 0 20px;
+
+            @media (max-width: 600px){
+                font-size: 20px;
+                margin: 0 15px;
+            }
         }
     }
 `;
