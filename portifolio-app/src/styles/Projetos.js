@@ -30,12 +30,25 @@ export const ProjectsStyle = styled.div`
         display: flex;
         width: 84%;
 
+        @media (max-width: 600px){
+            margin: 0;
+            padding: 0 10px 0px 10px;
+            display: flex;
+            width: 94%;
+            flex-direction: column;
+        }
+
         .card {
             width: 80%;
             height: 220px;
             border-radius: 5px;
             box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.16);
             margin: 0px 10px;
+
+            @media (max-width: 600px){
+                width: 100%;
+                margin: 30px 0px;
+            }
 
             img {
                 max-width: 100%;
