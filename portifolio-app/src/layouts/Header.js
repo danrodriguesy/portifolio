@@ -19,7 +19,7 @@ const Header = () => {
         <>
             <HeaderDiv>
                 <div>
-                    <Link to="/Projetos"> 
+                    <Link to="/"> 
                         <span>
                             DANRLEY RODRIGUES
                         </span>
