@@ -38,7 +38,7 @@ export const ProjectsStyle = styled.div`
             margin: 0;
             padding: 0 10px 0px 10px;
             display: flex;
-            width: 94%;
+            width: 91%;
             flex-direction: column;
         }
 
