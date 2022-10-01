@@ -10,7 +10,7 @@ function Home() {
           <div id="home-left">
             <img src={require('../image/img-profile.png')} alt="imagem-perfil" />
             <h1>Danrley Rodrigues</h1>
-            <p>Engenheiro de Software, apaixonado por tecnologia.</p>
+            <p>Engenheiro de Software e apaixonado por tecnologia.</p>
             <div id="icones">
               <a href="https://github.com/danrodriguesy" target="_blank" rel="noopener noreferrer">
                 <i className="devicon-github-original-wordmark colored"></i>
