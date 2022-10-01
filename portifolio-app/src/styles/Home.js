@@ -28,7 +28,7 @@ export const HomeStyle = styled.div`
 
         img {
             width: 140px;
-            height: 160px;
+            height: 180px;
             border-radius: 50%;
             overflow: hidden;
             border: 2px solid #00A199;
