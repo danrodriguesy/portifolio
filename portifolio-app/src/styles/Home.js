@@ -61,6 +61,13 @@ export const HomeStyle = styled.div`
         align-items: center;
         flex-direction: column;
 
+        p {
+            padding: 0 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #fff;
+        }
+
         @media (max-width: 600px){
             width: 100%;
             min-height: 300px;
