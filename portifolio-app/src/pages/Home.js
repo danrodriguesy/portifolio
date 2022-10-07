@@ -21,8 +21,9 @@ function Home() {
             </div>
           </div>
           <div id="home-right">
+            <p>O site está passsando por atualizações, principalmente a página "Projetos", mas fique à vontade para explorar meu Github e Linkedin!</p>
             <Link to="/Projetos"> 
-              <button>Projetos</button>
+              <button disabled="disabled">Projetos</button>
             </Link>
             <div id="icones">
               <i className="devicon-react-original-wordmark colored"></i> 

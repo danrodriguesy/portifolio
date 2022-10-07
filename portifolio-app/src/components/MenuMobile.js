@@ -6,7 +6,7 @@ const MenuMobile = () => {
         <>
             <MainMenuMobile>
                 <Link to="/"> Home </Link>
-                <Link to="/Projetos"> Projetos </Link>
+                <Link to=""> Projetos </Link>
             </MainMenuMobile>
         </>
     )
